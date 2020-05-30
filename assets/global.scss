@@ -1,0 +1,31 @@
+$bgcolor:#232328;
+// $contaner_bg:rgba(182, 193, 215, 0.1);
+$contaner_bg:#f2f2f2;
+$pc_max_width:1440px;
+
+.clearfix:after {
+    content: '020';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.page-enter-active, .page-leave-active {
+    transition: opacity .5s;
+  }
+  .page-enter, .page-leave-active {
+    opacity: 0;
+  }
+
+#__nuxt,
+#__layout {
+  height: 100%;
+}
+html,
+body {
+  height: 100%;
+}
+.layout {
+  height: 100%;
+}
+
