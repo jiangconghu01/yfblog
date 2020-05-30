@@ -25,7 +25,7 @@ module.exports = {
   },
   router: {
     // base: '/web/'
-    base: '/bl/dist/'
+    base: '/'
   },
   /*
    ** Global CSS
