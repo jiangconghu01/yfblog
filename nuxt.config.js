@@ -40,7 +40,11 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['@/plugins/element-ui', '@/plugins/router.js'],
+  plugins: [
+    '@/plugins/element-ui',
+    '@/plugins/router.js',
+    { src: '@/plugins/markdown.editor.js', ssr: false }
+  ],
   /*
    ** Nuxt.js dev-modules
    */
